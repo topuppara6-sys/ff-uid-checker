@@ -1,1 +1,1 @@
-# proto package
+# proto package __init__
