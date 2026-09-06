@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ff-uid-checker
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:app
